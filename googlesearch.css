@@ -1,5 +1,7 @@
 body {
   font-family: Helvetica;
+  color: #5b5b5b;
+  margin-top: 0;
 }
 
 .logo-search {
@@ -43,15 +45,31 @@ body {
 }
 
 #logo-results {
-  width: 80px;
+  width: 100px;
+  padding-top: 20px;
 }
 
 #button-results {
-  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #4285f3;
+  border-color: #1a5fd0;
+  border-radius: 4px;
+  border-width: 0.5px;
+  color: white;
+}
+
+#button-results:hover {
+  background-color: #5998ff;
+  transition: 0.7s;
 }
 
 #searchbar-results {
-  margin-left: 20px;
+  margin: 0 30px 20px 10px;
+  border-radius: 10px;
+  border-color: rgba(128, 128, 128, 0.5);
+  border-width: 0.5px;
+  width: 400px;
 }
 
 h1 {
@@ -66,9 +84,13 @@ p {
   font-size: 12px;
 }
 
+.results-list-number {
+  margin: 30px 0 0 30px;
+}
 /*
 Vertical space between search results: 40px
 Vertical space above and below the "number of results": 30px
+
 Height of the "Search" button: ~40px (automatic, same as search input)
 Vertical space above and below the "Search" button: 10px
 Space to the right of the logo: 30px
