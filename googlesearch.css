@@ -38,6 +38,10 @@ body {
   transition: 0.7s;
 }
 
+.header-results {
+  display: inline-block;
+}
+
 h1 {
   font-size: 24px;
 }
@@ -50,10 +54,7 @@ p {
   font-size: 12px;
 }
 
-/* Font: Helvetica (everywhere)
-Font size of paragraphs and other text: 14px
-Font size of the headings: 24px
-Font size of the smaller links: 12px
+/*
 Vertical space between search results: 40px
 Vertical space above and below the "number of results": 30px
 Height of the "Search" button: ~40px (automatic, same as search input)
