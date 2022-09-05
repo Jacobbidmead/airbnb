@@ -38,6 +38,18 @@ body {
   transition: 0.7s;
 }
 
+h1 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.links {
+  font-size: 12px;
+}
+
 /* Font: Helvetica (everywhere)
 Font size of paragraphs and other text: 14px
 Font size of the headings: 24px
