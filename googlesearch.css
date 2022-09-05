@@ -28,3 +28,8 @@ search-bar {
   border-width: 0.5px;
   color: white;
 }
+
+search-button:hover {
+  background-color: #5998ff;
+  transition: 0.7s;
+}
