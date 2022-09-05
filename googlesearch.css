@@ -76,6 +76,10 @@ h1 {
   font-size: 24px;
 }
 
+h1:active {
+  color: green;
+}
+
 p {
   font-size: 14px;
 }
@@ -85,7 +89,9 @@ p {
 }
 
 .results-list-number {
-  margin: 30px 0 0 30px;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 /*
 Vertical space between search results: 40px
