@@ -2,6 +2,7 @@ body {
   font-family: Helvetica;
   color: #5b5b5b;
   margin-top: 0;
+  display: grid;
 }
 
 .logo-search {
@@ -81,9 +82,10 @@ h1 {
   font-size: 24px;
 }
 
-h1:visited {
+/* h1:visited,
+h1:active {
   color: green;
-}
+} */
 
 p {
   font-size: 14px;
@@ -98,6 +100,11 @@ p {
   display: block;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.search-results {
+  margin-left: 140px;
+  width: 700px;
 }
 /*
 Vertical space between search results: 40px
