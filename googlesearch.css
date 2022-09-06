@@ -72,7 +72,7 @@ ul {
 
 /* logo */
 
-.logo-search {
+.wrap .logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -80,7 +80,7 @@ ul {
   width: 150px;
 }
 
-#logo-results {
+.wrap-results .logo-results {
   width: 150px;
   margin-left: 10px;
   margin-top: 10px;
@@ -88,7 +88,7 @@ ul {
 /*
 input */
 
-.search-bar {
+.wrap input {
   display: block;
   margin-top: 20px;
   margin-left: auto;
@@ -100,7 +100,7 @@ input */
   border-width: 1px;
 }
 
-#searchbar-results {
+.wrap-results input {
   margin: 14px 30px 12px 10px;
   border-radius: 18px;
   border-color: rgba(128, 128, 128, 0.5);
@@ -111,14 +111,14 @@ input */
 
 /* button */
 
-.search-button {
+.wrap button {
   display: block;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.search-button:hover {
+.wrap button:hover {
   background-color: #5998ff;
   transition: 0.7s;
 }
@@ -134,14 +134,14 @@ button {
   padding: 12px 20px;
 }
 
-#button-results {
+.wrap-results button {
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: #4285f3;
   border-color: #1a5fd0;
 }
 
-#button-results:hover {
+.wrap-results button:hover {
   background-color: #5998ff;
   transition: 0.7s;
 }
