@@ -68,15 +68,20 @@ body {
   margin: 0 30px 20px 10px;
   border-radius: 10px;
   border-color: rgba(128, 128, 128, 0.5);
-  border-width: 0.5px;
+  border-width: 1px;
   width: 400px;
+}
+
+.nav-bar {
+  border-bottom: 5px;
+  border-color: red;
 }
 
 h1 {
   font-size: 24px;
 }
 
-h1:active {
+h1:visited {
   color: green;
 }
 
@@ -86,6 +91,7 @@ p {
 
 .links {
   font-size: 12px;
+  margin-bottom: 40px;
 }
 
 .results-list-number {
