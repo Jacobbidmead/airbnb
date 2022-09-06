@@ -1,3 +1,5 @@
+/* main */
+
 body {
   font-family: Helvetica, sans-serif;
   color: #5b5b5b;
@@ -12,8 +14,46 @@ p {
   font-size: 14px;
 }
 
+nav {
+  border-bottom: 1px solid;
+  border-color: darkgrey;
+  display: grid;
+  grid-template-columns: 150px auto;
+  grid-column-gap: 20px;
+}
+
+section {
+  width: 700px;
+  margin-bottom: 40px;
+}
+
+section,
+.results {
+  margin-left: 180px;
+}
+
+.results {
+  display: block;
+}
+
+.result-title {
+  text-decoration: none;
+}
 .links {
   font-size: 12px;
+}
+
+.links {
+  margin-bottom: 40px;
+  list-style: none;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.links li {
+  display: inline-block;
 }
 
 .results-list-number {
@@ -22,6 +62,8 @@ p {
   margin-bottom: 30px;
 }
 
+/* logo */
+
 .logo-search {
   display: block;
   margin-left: auto;
@@ -29,6 +71,14 @@ p {
   margin-top: 100px;
   width: 150px;
 }
+
+#logo-results {
+  width: 150px;
+  padding-top: 20px;
+  margin-left: 5px;
+}
+/*
+input */
 
 .search-bar {
   display: block;
@@ -41,6 +91,17 @@ p {
   border-color: rgba(128, 128, 128, 0.5);
   border-width: 1px;
 }
+
+#searchbar-results {
+  margin: 0 30px 20px 10px;
+  border-radius: 18px;
+  border-color: rgba(128, 128, 128, 0.5);
+  border-width: 1px;
+  height: 40px;
+  width: 400px;
+}
+
+/* button */
 
 .search-button {
   display: block;
@@ -65,16 +126,6 @@ button {
   padding: 12px 20px;
 }
 
-/* .header-results {
-  display: inline-block;
-} */
-
-#logo-results {
-  width: 150px;
-  padding-top: 20px;
-  margin-left: 5px;
-}
-
 #button-results {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -87,53 +138,10 @@ button {
   transition: 0.7s;
 }
 
-#searchbar-results {
-  margin: 0 30px 20px 10px;
-  border-radius: 18px;
-  border-color: rgba(128, 128, 128, 0.5);
-  border-width: 1px;
-  height: 40px;
-  width: 400px;
-}
-
-nav {
-  border-bottom: 1px solid;
-  border-color: darkgrey;
-  display: grid;
-  grid-template-columns: 150px auto;
-  grid-column-gap: 20px;
-}
-
-.links {
-  margin-bottom: 40px;
-  list-style: none;
-}
-
-ul {
-  padding-left: 0;
-}
-
-.links li {
+/* .header-results {
   display: inline-block;
-}
+} */
 
-section {
-  width: 700px;
-  margin-bottom: 40px;
-}
-
-section,
-.results {
-  margin-left: 180px;
-}
-
-.results {
-  display: block;
-}
-
-.result-title {
-  text-decoration: none;
-}
 /*
 Vertical space between search results: 40px
 Vertical space above and below the "number of results": 30px
