@@ -6,6 +6,11 @@ body {
   margin: 0;
 }
 
+.wrap {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h1 {
   font-size: 24px;
 }
@@ -22,6 +27,8 @@ nav {
   grid-column-gap: 20px;
 }
 
+/* section */
+
 section {
   width: 700px;
   margin-bottom: 40px;
@@ -32,8 +39,10 @@ section,
   margin-left: 180px;
 }
 
+small,
 .results {
   display: block;
+  margin-top: 30px;
 }
 
 .result-title {
