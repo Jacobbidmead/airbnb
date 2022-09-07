@@ -23,7 +23,7 @@ nav {
   padding-right: 40px;
 }
 
-.house-search {
+/* .house-search {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 100%;
@@ -31,7 +31,7 @@ nav {
   padding-left: 40px;
   padding-right: 40px;
   margin-top: 20px;
-}
+} */
 
 /*
 logo */
@@ -48,16 +48,16 @@ logo */
 }
 
 /* buttons */
-.wrap-houses button {
+/* .wrap-houses button {
   border: solid 1px darkgray;
   border-radius: 6px;
   color: grey;
   margin: 10px;
   margin-right: 0px;
   background-color: white;
-}
+} */
 
-.nav-button {
+/* .nav-button {
   border: solid 1px;
   border-radius: 6px;
   color: white;
@@ -66,4 +66,4 @@ logo */
   background-color: #3caea3;
   width: 30%;
   padding: 10px;
-}
+} */
