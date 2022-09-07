@@ -35,7 +35,7 @@ nav {
 /*
 logo */
 
-.wrap .logo {
+.wrap-houses .logo {
   width: 10%;
   margin: 15px;
 }
@@ -52,10 +52,12 @@ form {
 
 .form-select {
   width: 80%;
+  margin: 10px;
+  border: solid 1px grey;
 }
 
 /* buttons */
-.wrap button {
+.wrap-houses button {
   border: solid 1px darkgray;
   border-radius: 6px;
   color: grey;

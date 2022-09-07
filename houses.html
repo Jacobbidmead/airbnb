@@ -12,46 +12,45 @@
     <link rel="stylesheet" href="airbnb.css" />
   </head>
   <body>
-    <nav class="wrap">
+    <nav class="wrap-houses">
       <img src="images/logo-airbnb.png" alt="airbnb logo" class="logo" />
-      <button type="button" class="btn btn-secondary btn-sm">
+      <button class="btn btn-secondary btn-sm">
         <img
           src="https://randomuser.me/api/portraits/men/11.jpg"
           alt=""
           class="user-image"
         />User name
       </button>
-      <button type="button" class="btn btn-secondary btn-sm">Log out</button>
+      <button class="btn btn-secondary btn-sm">Log out</button>
     </nav>
     <form>
       <select class="form-select" aria-label="Default select example">
         <option selected>Any Location</option>
-        <option value="1"></option>
-        <option value="2">Two</option>
-        <option value="3">Three</option>
+        <option value="1">Koh Phangan</option>
+        <option value="2">Koh Samui</option>
+        <option value="3">Bali</option>
       </select>
       <select class="form-select" aria-label="Default select example">
         <option selected>Any Rooms</option>
-        <option value="1">One</option>
-        <option value="2">Two</option>
-        <option value="3">Three</option>
+        <option value="1">1 room</option>
+        <option value="2">2 rooms</option>
+        <option value="3">3 rooms</option>
+        <option value="1">4 rooms</option>
+        <option value="2">5 rooms</option>
+        <option value="3">6 rooms</option>
       </select>
 
       <select class="form-select" aria-label="Default select example">
         <option selected>max price</option>
-        <option value="1">One</option>
-        <option value="2">Two</option>
-        <option value="3">Three</option>
       </select>
+
       <select class="form-select" aria-label="Default select example">
         <option selected>Price (low to high)</option>
-        <option value="1">One</option>
-        <option value="2">Two</option>
-        <option value="3">Three</option>
+        <option value="1">Price (high to low)</option>
       </select>
 
       <input
-        class="form-control"
+        class="form-select"
         list="datalistOptions"
         id="exampleDataList"
         placeholder="House name..."
