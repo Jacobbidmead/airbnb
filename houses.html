@@ -14,17 +14,27 @@
 
   <body>
     <nav class="wrap-houses">
-      <img src="images/logo-airbnb.png" alt="airbnb logo" class="logo" />
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="images/logo-airbnb.png" alt="airbnb logo" class="logo" />
+          </div>
 
-      <button type="button" class="btn btn-outline-secondary">
-        <img
-          src="https://randomuser.me/api/portraits/men/11.jpg"
-          alt=""
-          class="user-image"
-        />User name
-      </button>
+          <div class="col text-end">
+            <button type="button" class="btn btn-outline-secondary">
+              <img
+                src="https://randomuser.me/api/portraits/men/11.jpg"
+                alt=""
+                class="user-image"
+              />User name
+            </button>
 
-      <button type="button" class="btn btn-outline-secondary">Log out</button>
+            <button type="button" class="btn btn-outline-secondary">
+              Log out
+            </button>
+          </div>
+        </div>
+      </div>
     </nav>
 
     <div class="container">
@@ -76,11 +86,9 @@
             placeholder="House name..."
           />
           <datalist id="datalistOptions">
-            <option value="San Francisco"> </option>
-            <option value="New York"> </option>
-            <option value="Seattle"> </option>
-            <option value="Los Angeles"> </option>
-            <option value="Chicago"> </option>
+            <option>Koh Phangan </option>
+            <option>Koh Samui </option>
+            <option>Bali </option>
           </datalist>
         </div>
         <div class="col">
@@ -135,24 +143,22 @@
         </div>
 
         <div class="col">
-          <div class="house-search-items">
-            <div class="card">
-              <img
-                src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295027/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2003/house_03_01.png
+          <div class="card">
+            <img
+              src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295027/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2003/house_03_01.png
 
 "
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <small class="card-text"> Bali</small>
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <small class="card-text"> Bali</small>
 
-                <ul>
-                  3 Rooms
-                </ul>
-                <h3>Seminyak KuDeTa Beach</h3>
-                <small>2 reviews</small><small> $120</small>
-              </div>
+              <ul>
+                3 Rooms
+              </ul>
+              <h3>Seminyak KuDeTa Beach</h3>
+              <small>2 reviews</small><small> $120</small>
             </div>
           </div>
         </div>
@@ -181,58 +187,74 @@
         </div>
         <div class="row">
           <div class="col">
-            <div class="house-search-items">
-              <div class="card">
-                <img
-                  src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295027/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2005/house_05_01.png
+            <div class="card">
+              <img
+                src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295027/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2005/house_05_01.png
 
 "
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <small class="card-text"> Koh Phangan</small>
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <small class="card-text">Koh Phangan</small>
 
-                  <ul>
-                    2 Rooms
-                  </ul>
-                  <h3>Archie Village House</h3>
-                  <small>1 review</small><small> $80</small>
-                </div>
+                <ul>
+                  2 Rooms
+                </ul>
+                <h3>Archie Village House</h3>
+                <small>1 review</small><small> $80</small>
               </div>
             </div>
           </div>
 
           <div class="col">
-            <div class="house-search-items">
-              <div class="card">
-                <img
-                  src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295027/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2006/house_06_01.png
+            <div class="card">
+              <img
+                src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295027/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2006/house_06_01.png
 
 "
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <small class="card-text"> Koh Phangan</small>
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <small class="card-text"> Koh Phangan</small>
 
-                  <ul>
-                    6 Rooms
-                  </ul>
-                  <h3>Luxury 6 Beds Villa</h3>
-                  <small>0 review</small><small> $150</small>
-                </div>
+                <ul>
+                  6 Rooms
+                </ul>
+                <h3>Luxury 6 Beds Villa</h3>
+                <small>0 review</small><small> $150</small>
               </div>
             </div>
           </div>
 
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295027/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2007/house_07_01.png
+
+"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <small class="card-text"> Koh Phangan</small>
+
+                <ul>
+                  4 Rooms
+                </ul>
+                <h3>Narivana Koh Phangan</h3>
+                <small>0 reviews</small><small> $100</small>
+              </div>
+            </div>
+          </div>
           <div class="col">
             <div class="house-search-items">
               <div class="card">
                 <img
                   src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295027/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2007/house_07_01.png
 
-"
+	"
                   class="card-img-top"
                   alt="..."
                 />
