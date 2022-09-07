@@ -23,48 +23,63 @@
       </button>
       <button class="btn btn-secondary btn-sm">Log out</button>
     </nav>
-    <form>
-      <select class="form-select" aria-label="Default select example">
-        <option selected>Any Location</option>
-        <option value="1">Koh Phangan</option>
-        <option value="2">Koh Samui</option>
-        <option value="3">Bali</option>
-      </select>
-      <select class="form-select" aria-label="Default select example">
-        <option selected>Any Rooms</option>
-        <option value="1">1 room</option>
-        <option value="2">2 rooms</option>
-        <option value="3">3 rooms</option>
-        <option value="1">4 rooms</option>
-        <option value="2">5 rooms</option>
-        <option value="3">6 rooms</option>
-      </select>
+    <div class="container-fluid">
+			<div class="container text-center">
 
-      <select class="form-select" aria-label="Default select example">
-        <option selected>max price</option>
-      </select>
+		<form>
+<div class="row">
+<div class="col">
+				<select class="form-select" aria-label="Default select example">
+          <option selected>Any Location</option>
+          <option value="1">Koh Phangan</option>
+          <option value="2">Koh Samui</option>
+          <option value="3">Bali</option>
+        </select>
+</div>
 
-      <select class="form-select" aria-label="Default select example">
-        <option selected>Price (low to high)</option>
-        <option value="1">Price (high to low)</option>
-      </select>
+<div class="col">
+				<select class="form-select" aria-label="Default select example">
+          <option selected>Any Rooms</option>
+          <option value="1">1 room</option>
+          <option value="2">2 rooms</option>
+          <option value="3">3 rooms</option>
+          <option value="1">4 rooms</option>
+          <option value="2">5 rooms</option>
+          <option value="3">6 rooms</option>
+        </select>
+			</div>
+<div class="col">
+        <select class="form-select" aria-label="Default select example">
+          <option selected>max price</option>
+        </select>
+</div>
+<div class="col">
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Price (low to high)</option>
+          <option value="1">Price (high to low)</option>
+        </select>
+</div>
+<div class="col">
+        <input
+          class="form-select"
+          list="datalistOptions"
+          id="exampleDataList"
+          placeholder="House name..."
+        />
+        <datalist id="datalistOptions">
+          <option value="San Francisco"> </option>
+          <option value="New York"> </option>
+          <option value="Seattle"> </option>
+          <option value="Los Angeles"> </option>
+          <option value="Chicago"> </option>
+        </datalist>
+			</div>
+<div class="col">
+        <button class="nav-button">Search</button></div>
+</div>
+			</form>
 
-      <input
-        class="form-select"
-        list="datalistOptions"
-        id="exampleDataList"
-        placeholder="House name..."
-      />
-      <datalist id="datalistOptions">
-        <option value="San Francisco"> </option>
-        <option value="New York"> </option>
-        <option value="Seattle"> </option>
-        <option value="Los Angeles"> </option>
-        <option value="Chicago"> </option>
-      </datalist>
-
-      <button class="nav-button">Search</button>
-    </form>
+	</div>
 
     <section class="house-search">
       <div class="house-search-items">
@@ -98,13 +113,13 @@
             alt="..."
           />
           <div class="card-body">
-            <small class="card-text"> Koh Samui</small>
+            <small class="card-text"> Koh Phangan</small>
 
             <ul>
-              4 Rooms
+              3 Rooms
             </ul>
-            <h3>Luxury Villa in Chaweng</h3>
-            <small>3 reviews</small><small> $350</small>
+            <h3>Private Villa Lotus 1</h3>
+            <small>1 review</small><small> $150</small>
           </div>
         </div>
       </div>
@@ -118,13 +133,13 @@
             alt="..."
           />
           <div class="card-body">
-            <small class="card-text"> Koh Samui</small>
+            <small class="card-text"> Bali</small>
 
             <ul>
-              4 Rooms
+              3 Rooms
             </ul>
-            <h3>Luxury Villa in Chaweng</h3>
-            <small>3 reviews</small><small> $350</small>
+            <h3>Seminyak KuDeTa Beach</h3>
+            <small>2 reviews</small><small> $120</small>
           </div>
         </div>
       </div>
@@ -138,13 +153,13 @@
             alt="..."
           />
           <div class="card-body">
-            <small class="card-text"> Koh Samui</small>
+            <small class="card-text"> Bali</small>
 
             <ul>
-              4 Rooms
+              5 Rooms
             </ul>
-            <h3>Luxury Villa in Chaweng</h3>
-            <small>3 reviews</small><small> $350</small>
+            <h3>5 Bed Villa Canggu</h3>
+            <small>1 review</small><small> $250</small>
           </div>
         </div>
       </div>
@@ -158,13 +173,13 @@
             alt="..."
           />
           <div class="card-body">
-            <small class="card-text"> Koh Samui</small>
+            <small class="card-text"> Koh Phangan</small>
 
             <ul>
-              4 Rooms
+              2 Rooms
             </ul>
-            <h3>Luxury Villa in Chaweng</h3>
-            <small>3 reviews</small><small> $350</small>
+            <h3>Archie Village House</h3>
+            <small>1 review</small><small> $80</small>
           </div>
         </div>
       </div>
@@ -178,13 +193,13 @@
             alt="..."
           />
           <div class="card-body">
-            <small class="card-text"> Koh Samui</small>
+            <small class="card-text"> Koh Phangan</small>
 
             <ul>
-              4 Rooms
+              6 Rooms
             </ul>
-            <h3>Luxury Villa in Chaweng</h3>
-            <small>3 reviews</small><small> $350</small>
+            <h3>Luxury 6 Beds Villa</h3>
+            <small>0 review</small><small> $150</small>
           </div>
         </div>
       </div>
@@ -198,13 +213,13 @@
             alt="..."
           />
           <div class="card-body">
-            <small class="card-text"> Koh Samui</small>
+            <small class="card-text"> Koh Phangan</small>
 
             <ul>
               4 Rooms
             </ul>
-            <h3>Luxury Villa in Chaweng</h3>
-            <small>3 reviews</small><small> $350</small>
+            <h3>Narivana Koh Phangan</h3>
+            <small>0 reviews</small><small> $100</small>
           </div>
         </div>
       </div>
