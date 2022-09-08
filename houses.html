@@ -39,63 +39,65 @@
       </div>
     </nav>
 
-    <!-- drop down menu -->
+    <!-- filters-->
     <div class="bg-light p-3">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <select class="form-select">
-              <option selected>Any Location</option>
-              <option value="1">Koh Phangan</option>
-              <option value="2">Koh Samui</option>
-              <option value="3">Bali</option>
-            </select>
-          </div>
+      <form>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <select class="form-select">
+                <option selected>Any Location</option>
+                <option value="1">Koh Phangan</option>
+                <option value="2">Koh Samui</option>
+                <option value="3">Bali</option>
+              </select>
+            </div>
 
-          <div class="col">
-            <select class="form-select">
-              <option selected>Any Rooms</option>
-              <option value="1">1 room</option>
-              <option value="2">2 rooms</option>
-              <option value="3">3 rooms</option>
-              <option value="1">4 rooms</option>
-              <option value="2">5 rooms</option>
-              <option value="3">6 rooms</option>
-            </select>
-          </div>
+            <div class="col">
+              <select class="form-select">
+                <option selected>Any Rooms</option>
+                <option value="1">1 room</option>
+                <option value="2">2 rooms</option>
+                <option value="3">3 rooms</option>
+                <option value="1">4 rooms</option>
+                <option value="2">5 rooms</option>
+                <option value="3">6 rooms</option>
+              </select>
+            </div>
 
-          <div class="col">
-            <div class="input-group">
-              <span class="input-group-text">$</span>
-              <input
-                type="number"
-                placeholder="max price"
-                class="form-control"
-                aria-label="Dollar amount (with dot and two decimal places)"
-              />
+            <div class="col">
+              <div class="input-group">
+                <span class="input-group-text">$</span>
+                <input
+                  type="number"
+                  placeholder="max price"
+                  class="form-control"
+                  aria-label="Dollar amount (with dot and two decimal places)"
+                />
+              </div>
+            </div>
+
+            <div class="col">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Price (low to high)</option>
+                <option value="1">Price (high to low)</option>
+              </select>
+            </div>
+
+            <div class="col">
+              <input class="form-control" placeholder="House name..." />
+              <datalist id="datalistOptions">
+                <option>Koh Phangan </option>
+                <option>Koh Samui </option>
+                <option>Bali </option>
+              </datalist>
+            </div>
+            <div class="col">
+              <button type="button" class="btn btn-success">Search</button>
             </div>
           </div>
-
-          <div class="col">
-            <select class="form-select" aria-label="Default select example">
-              <option selected>Price (low to high)</option>
-              <option value="1">Price (high to low)</option>
-            </select>
-          </div>
-
-          <div class="col">
-            <input class="form-control" placeholder="House name..." />
-            <datalist id="datalistOptions">
-              <option>Koh Phangan </option>
-              <option>Koh Samui </option>
-              <option>Bali </option>
-            </datalist>
-          </div>
-          <div class="col">
-            <button type="button" class="btn btn-success">Search</button>
-          </div>
         </div>
-      </div>
+      </form>
     </div>
 
     <!-- house cards -->
