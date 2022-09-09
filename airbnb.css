@@ -26,3 +26,7 @@
 .login > div {
   height: 100vh;
 }
+
+.review-card {
+  background-color: #e6ffe3;
+}
