@@ -10,7 +10,7 @@
 }
 
 .logo {
-  width: 25%;
+  width: 30%;
 }
 
 .logo-create {
@@ -29,4 +29,5 @@
 
 .review-card {
   background-color: #e6ffe3;
+  border-radius: 5px;
 }
