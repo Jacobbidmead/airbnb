@@ -29,7 +29,7 @@
               />User name
             </a>
 
-            <a href="" type="button" class="btn btn-outline-secondary">
+            <a href="" class="btn btn-outline-secondary">
               Log out
             </a>
           </div>
@@ -175,24 +175,50 @@
               <small>Leave a review</small>
               <form>
                 <div class="input-group mb-1">
-                  <textarea class="form-control" rows="8"></textarea>
+                  <textarea
+                    name="review"
+                    class="form-control"
+                    rows="8"
+                  ></textarea>
                 </div>
-                <button type="button" class="btn btn-success">
+                <button class="btn btn-success">
                   Submit
                 </button>
               </form>
 
               <div class="card mt-3">
                 <div class="card-body">
-                  <small>01 Januaray 2020</small>
-                  <h5>Peter Jones</h5>
+                  <div class="row">
+                    <div class="col-1">
+                      avatar
+                    </div>
+                    <div class="col-11">
+                      <span>
+                        Hosted by
+                      </span>
+                      <div class="">
+                        User name
+                      </div>
+                    </div>
+                  </div>
                   <p>Review content</p>
                 </div>
               </div>
               <div class="card mt-3">
                 <div class="card-body">
-                  <small>01 Januaray 2020</small>
-                  <h5>Peter Jones</h5>
+                  <div class="row">
+                    <div class="col-1">
+                      avatar
+                    </div>
+                    <div class="col-11">
+                      <span>
+                        Hosted by
+                      </span>
+                      <div class="">
+                        User name
+                      </div>
+                    </div>
+                  </div>
                   <p>Review content</p>
                 </div>
               </div>
@@ -208,12 +234,12 @@
                   <div class="mb-5"><small class="mb-5">2 Reviews</small></div>
                   <form>
                     <div class="input-group mb-1">
-                      <textarea class="form-control" rows="8">
+                      <textarea name="message" class="form-control" rows="8">
 Send the host a message...</textarea
                       >
                     </div>
                     <div>
-                      <button type="button" class="btn btn-success">
+                      <button class="btn btn-success">
                         Request Booking
                       </button>
                     </div>
