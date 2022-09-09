@@ -45,8 +45,8 @@
         <div class="container">
           <div class="row">
             <div class="col">
-              <select class="form-select">
-                <option selected>Any Location</option>
+              <select name="location" class="form-select">
+      5        <option selected>Any Location</option>
                 <option value="1">Koh Phangan</option>
                 <option value="2">Koh Samui</option>
                 <option value="3">Bali</option>
@@ -54,7 +54,7 @@
             </div>
 
             <div class="col">
-              <select class="form-select">
+              <select name="rooms" class="form-select">
                 <option selected>Any Rooms</option>
                 <option value="1">1 room</option>
                 <option value="2">2 rooms</option>
@@ -69,6 +69,7 @@
               <div class="input-group">
                 <span class="input-group-text">$</span>
                 <input
+                  name="price"
                   type="number"
                   placeholder="max price"
                   class="form-control"
@@ -78,22 +79,22 @@
             </div>
 
             <div class="col">
-              <select class="form-select" aria-label="Default select example">
+              <select name="low-to-high" class="form-select">
                 <option selected>Price (low to high)</option>
                 <option value="1">Price (high to low)</option>
               </select>
             </div>
 
             <div class="col">
-              <input class="form-control" placeholder="House name..." />
-              <datalist id="datalistOptions">
-                <option>Koh Phangan </option>
-                <option>Koh Samui </option>
-                <option>Bali </option>
-              </datalist>
+              <input
+                name="house-name"
+                class="form-control"
+                placeholder="House name..."
+              />
+              <datalist> </datalist>
             </div>
             <div class="col">
-              <button type="button" class="btn btn-success">Search</button>
+              <button class="btn btn-success">Search</button>
             </div>
           </div>
         </div>
@@ -123,7 +124,7 @@
                   4 Rooms
                 </li>
               </ul>
-              <h3 class="card-title">Luxury Villa in Chaweng</h3>
+              <h5 class="card-title">Luxury Villa in Chaweng</h3>
               <small>3 reviews</small><small> $350</small>
             </div>
           </div>
@@ -147,7 +148,7 @@
                   3 Rooms
                 </li>
               </ul>
-              <h3>Private Villa Lotus 1</h3>
+              <h5>Private Villa Lotus 1</h3>
               <small>1 review</small><small> $150</small>
             </div>
           </div>
@@ -170,7 +171,7 @@
                   3 Rooms
                 </li>
               </ul>
-              <h3>Seminyak KuDeTa Beach</h3>
+              <h5>Seminyak KuDeTa Beach</h3>
               <small>2 reviews</small><small> $120</small>
             </div>
           </div>
@@ -193,7 +194,7 @@
                   5 Rooms
                 </li>
               </ul>
-              <h3>5 Bed Villa Canggu</h3>
+              <h5>5 Bed Villa Canggu</h3>
               <small>1 review</small><small> $250</small>
             </div>
           </div>
@@ -219,7 +220,7 @@
                   2 Rooms
                 </li>
               </ul>
-              <h3>Archie Village House</h3>
+              <h5>Archie Village House</h3>
               <small>1 review</small><small> $80</small>
             </div>
           </div>
@@ -244,7 +245,7 @@
                   6 Rooms
                 </li>
               </ul>
-              <h3>Luxury 6 Beds Villa</h3>
+              <h5>Luxury 6 Beds Villa</h3>
               <small>0 review</small><small> $150</small>
             </div>
           </div>
@@ -267,7 +268,7 @@
                   4 Rooms
                 </li>
               </ul>
-              <h3>Narivana Koh Phangan</h3>
+              <h5>Narivana Koh Phangan</h3>
               <small>0 reviews</small><small> $100</small>
             </div>
           </div>
@@ -289,7 +290,7 @@
                   4 Rooms
                 </li>
               </ul>
-              <h3>Narivana Koh Phangan</h3>
+              <h5>Narivana Koh Phangan</h3>
               <small>0 reviews</small><small> $100</small>
             </div>
           </div>
