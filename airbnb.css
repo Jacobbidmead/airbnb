@@ -10,6 +10,13 @@
   align-items: center;
 }
 
+.avatar {
+  width: 40px;
+  border-radius: 50%;
+  margin: 1px;
+  align-items: center;
+}
+
 .logo {
   width: 30%;
 }
@@ -31,4 +38,13 @@
 .review-card {
   background-color: #e6ffe3;
   border-radius: 5px;
+}
+
+.btn-success {
+  background-color: #00a699;
+}
+
+.btn-outline-success {
+  border-color: #00a699;
+  color: #00a699;
 }
