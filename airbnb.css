@@ -1,0 +1,34 @@
+* {
+  margin: 0px;
+  font-family: helvetica, sans-serif;
+}
+
+.user-image {
+  width: 25px;
+  border-radius: 50%;
+  margin: 1px;
+  align-items: center;
+}
+
+.logo {
+  width: 30%;
+}
+
+.logo-create {
+  width: 15%;
+}
+
+.login {
+  height: 100vh;
+  background-image: url(images/thailand.jpg);
+  background-size: cover;
+}
+
+.login > div {
+  height: 100vh;
+}
+
+.review-card {
+  background-color: #e6ffe3;
+  border-radius: 5px;
+}
