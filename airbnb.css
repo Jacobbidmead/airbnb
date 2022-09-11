@@ -80,3 +80,12 @@ small {
 .fa-thumbs-down {
   color: #ff5a5f;
 }
+
+.location-dot-house {
+  color: rgb(0, 166, 153);
+}
+/*
+a.cards,
+a.card:hover {
+  color: inherit;
+} */
