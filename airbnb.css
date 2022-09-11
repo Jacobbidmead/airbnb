@@ -63,3 +63,11 @@ small {
 .btn-outline-success:hover {
   background-color: rgba(0, 166, 153, 0.8);
 }
+
+.link-color {
+  color: rgb(0, 166, 153);
+}
+
+.link-color:hover {
+  color: rgba(0, 166, 153, 0.8);
+}
