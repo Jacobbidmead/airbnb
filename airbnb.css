@@ -72,10 +72,11 @@ small {
   color: rgba(0, 166, 153, 0.8);
 }
 
-.thumbs-up {
+.fa-thumbs-up {
   color: rgb(0, 166, 153);
+  border-color: rgb(0, 166, 153);
 }
 
-.thumbs-down {
+.fa-thumbs-down {
   color: #ff5a5f;
 }
