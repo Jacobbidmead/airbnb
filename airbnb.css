@@ -24,6 +24,10 @@
   width: 15%;
 }
 
+.logo-auth {
+  width: 25%;
+}
+
 .login {
   height: 100vh;
   background-image: url(images/thailand.jpg);
